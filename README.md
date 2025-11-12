@@ -32,23 +32,31 @@ Prints a Classification Report (precision, recall, f1-score).
 Setup Instructions
 
 1. Clone the Repository
-git clone [https://github.com/Hassansyed21/pneumonia-detection-cnn.git](https://github.com/Hassansyed21/pneumonia-detection-cnn.git)
+   git clone [https://github.com/Hassansyed21/pneumonia-detection-cnn.git](https://github.com/Hassansyed21/pneumonia-detection-cnn.git)
     cd pneumonia-detection-cnn
 2. Install Dependencies
-    pip install -r requirements.txt
+   pip install -r requirements.txt
 3. Run the Notebook
-Open pneumonia_detection_model.ipynb in Jupyter or Google Colab.
-Important: You must upload the chest_xray dataset to your environment (e.g., Google Drive) and update the base_dir path in the notebook to match your location
+   Open pneumonia_detection_model.ipynb in Jupyter or Google Colab.
+   Important: This project requires the pre-trained model file my_chest_xray_model.keras. Download it from the link in the README.md and place it in your project folder.
+   You must also upload the chest_xray dataset to your environment.
 
 Follow the code cells for training and evaluation.
 
 File Structure
 pneumonia-detection-cnn
+
 |-- README.md
+
 |-- pneumonia_detection_model.ipynb <-- The main project notebook
-|-- my_chest_xray_model.keras <-- The saved, trained model
+
+|-- my_chest_xray_model.keras     <-- (Model file is too large for GitHub)
+                                     [Download from Google Drive](https://drive.google.com/file/d/13Zu3TeIpwT0IqUQjaENAKOfkVsLx7PgA/view?usp=drive_link)
+  
 |-- requirements.txt <--Python libraries
+
 |-- .gitignore <--Files to ignore
+
 |-- LICENSE <-- MIT License
 
 Results
